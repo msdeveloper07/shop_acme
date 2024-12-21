@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+@import "font-awesome-sprockets";
+@import "font-awesome";
+body{
+ font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+*{ 
+   margin:0px; 
+   padding:0px; 
+   box-sizing:border-box;
+   outline: none;
+}
+p{ 
+ font-size: 16px;
+ color: #646464;
+ line-height: 24px;
+}
+a {
+    text-decoration: none;
+	font-size: 16px;
+}
+li{ 
+  list-style: none;
+}
+ul{
+   margin:0px;
+   padding-left:0px;
+   padding-right:0px;
+}
+.clear{
+ clear: both;
+}
+.container{
+   width:1170px;
+   margin:0px auto;
+}
+/***************/
+.app-installpage {
+    float: left;
+    width: 100%;
+}
+.app-installpage .container {
+    max-width: 768px;
+    width: 100%;
+}
+.logo-app {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+.logo-app a {
+    font-size: 40px;
+}
+.app-installpage h2 {
+    font-size: 56px;
+    line-height: 1.38;
+    text-align: center;
+    color: #000;
+}
+section.app-section {
+    float: left;
+    width: 100%;
+    padding-top: 10%;
+}
+section.app-section h4 {
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+section.app-section form.form-inline {
+   padding: 15px;
+    border-radius: 3px;
+    position: relative;
+    background: white;
+    z-index: 2;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    margin: 60px auto 0;
+    max-width: 470px;
+	    display: table;
+    width: 100%;
+}
+section.app-section .form-group {
+    float: left;
+    width: 70%;
+}
+section.app-section .form-group input#site_url {
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    border: none;
+    background: #fff;
+    height: 46px;
+    font-size: 14px;
+}
+section.app-section input.btn.btn-primary {
+    width: 30%;
+    background: #000;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 3px;
+    font-size: 15px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    border: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.logo-app img {
+    max-width: 160px;
+}
+section.app-section .form-group .input-group {
+    float: left;
+    width: 100%;
+}
+
+@media(max-width: 767px){
+	.app-installpage h2 {
+    font-size: 26px;
+    line-height: 36px;
+}
+}
